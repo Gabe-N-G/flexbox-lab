@@ -11,12 +11,42 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between
   }
-  
+
+  nav #destinations {
+    /* color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px
+    /* justify-content: space-evenly; */
+  }  
+
+  nav #actions {
+    /* color: red; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }  
+
   p {
     margin: 0;
   }
   
+#hero{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#hero #trending{
+    /* color:#ea4c89; */
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
   section {
     height: 460px;
     background-color: black;
