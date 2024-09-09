@@ -36,13 +36,18 @@
   
 #hero{
     display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-#hero #trending{
+
+#trending{
     /* color:#ea4c89; */
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px
 }
@@ -81,8 +86,19 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-footer{
+    display: flex;
+    justify-content: space-between;
   }
   
+  .card{
+    margin: 20px;
+  }
+
   nav button {
     background-color: #ea4c89;
     border-radius: 8px;
@@ -110,6 +126,9 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    color: red;
+    display: flex;
+    justify-content: space-between;
   }
   
   #subnav button {
@@ -126,3 +145,10 @@
     padding: 6px 15px;
   }
   
+
+  #search{
+    /* background-color: red; */
+    display : flex;
+    justify-content: center;
+    align-items: center;
+  }
